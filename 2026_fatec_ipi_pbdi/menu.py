@@ -22,5 +22,10 @@ elif escolha_usuario == 2:
     print("Você escolheu a opação de subtrair")
 elif escolha_usuario == 3:
     print("Você escolheu a opção de multiplicar")
+elif escolha_usuario == 4:
+    print("Você escolheu a opção de dividir")
+elif escolha_usuario == 0:
+    print("Você escolheu a opção de sair do programa")
+else:    print("Opção inválida, por favor escolha uma opção válida")
 
 
