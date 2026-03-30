@@ -19,7 +19,7 @@ escolha_usuario = int(input("Digite a opção desejada:"))
 if escolha_usuario == 1:
     print("Você escolheu a opção de somar")
 elif escolha_usuario == 2:
-    print("Você escolheu a opação de subtrair")
+    print("Você escolheu a opção de subtrair")
 elif escolha_usuario == 3:
     print("Você escolheu a opção de multiplicar")
 elif escolha_usuario == 4:
