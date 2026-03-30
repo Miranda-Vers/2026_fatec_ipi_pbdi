@@ -29,6 +29,9 @@ elif escolha_usuario == 2:
     print(f"A subtração dos números é {n1 - n2}")
 elif escolha_usuario == 3:
     print("Você escolheu a opção de multiplicar")
+    n1= float(input("Digite o primeiro número: "))
+    n2= float(input("Digite o segundo número: "))
+    print(f"A multipicação dos números é {m1 * n2}")
 elif escolha_usuario == 4:
     print("Você escolheu a opção de dividir")
 elif escolha_usuario == 0:
