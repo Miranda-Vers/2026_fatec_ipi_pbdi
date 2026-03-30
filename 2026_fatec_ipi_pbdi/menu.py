@@ -15,7 +15,11 @@ print("3. Multiplicar")
 print("4. Dividir")
 print("0. Sair do programa")
 
-
+escolha_usuario = int(input("Digite a opção desejada:"))
+if escolha_usuario == 1:
+    print("Você escolheu a opção de somar")
+elif escolha_usuario == 2:
+    print("Você escolheu a opação de subtrair")
     
 
 
