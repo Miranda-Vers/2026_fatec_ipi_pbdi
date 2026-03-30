@@ -7,13 +7,14 @@
 #0. Sair
 
 
+def menu():
 
-print("Boa tarde, quais das opções deseja escolher? ")
-print("1. Somar")
-print("2. Subtrair")
-print("3. Multiplicar")
-print("4. Dividir")
-print("0. Sair do programa")
+    print("Boa tarde, quais das opções deseja escolher? ")
+    print("1. Somar")
+    print("2. Subtrair")
+    print("3. Multiplicar")
+    print("4. Dividir")
+    print("0. Sair do programa")
 
 escolha_usuario = int(input("Digite a opção desejada:"))
 if escolha_usuario == 1:
@@ -29,3 +30,4 @@ elif escolha_usuario == 0:
 else:    print("Opção inválida, por favor escolha uma opção válida")
 
 
+menu()
